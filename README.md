@@ -194,7 +194,7 @@ WinPE-ImageTool/
 ├── main.cpp           # ソースコード（単一ファイル）
 ├── build_msvc.bat     # MSVC ビルドスクリプト
 ├── build_mingw.bat    # MinGW ビルドスクリプト（代替）
-├── README.md
+├── README.md　　　　　 # れどみ
 ├── dousa.png
 ├── TOP.pnng
 ├── hukugen.png
@@ -209,6 +209,7 @@ WinPE-ImageTool/
 - **ディスク初期化は不可逆操作です。** 対象ディスクのデータはすべて消去されます。実行前に必ず確認ダイアログが表示されます。
 - WinPE 以外の通常の Windows 環境でも動作しますが、システムドライブへの操作は避けてください。
 - `wpeutil.exe` は WinPE 環境でのみ利用可能です。通常の Windows ではシャットダウン / 再起動ボタンは機能しません。
+- 作者はこのツールを使用して問題が発生したとしても関知しません。
 
 ---
 
